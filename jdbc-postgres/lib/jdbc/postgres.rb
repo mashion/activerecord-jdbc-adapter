@@ -20,6 +20,4 @@ end
 
 if RUBY_PLATFORM =~ /java/
   Jdbc::Postgres::require_driver_jar
-else
-  warn "jdbc-postgres is only for use with JRuby"
 end

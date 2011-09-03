@@ -5,6 +5,4 @@ module Jdbc
 end
 if RUBY_PLATFORM =~ /java/
   require "sqlite-jdbc-#{Jdbc::SQLite3::VERSION}.jar"
-else
-  warn "jdbc-SQLite3 is only for use with JRuby"
 end
